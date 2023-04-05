@@ -1,4 +1,4 @@
-# ksuid [![Go Report Card](https://goreportcard.com/badge/github.com/segmentio/ksuid)](https://goreportcard.com/report/github.com/segmentio/ksuid) [![GoDoc](https://godoc.org/github.com/segmentio/ksuid?status.svg)](https://godoc.org/github.com/segmentio/ksuid) [![Circle CI](https://circleci.com/gh/segmentio/ksuid.svg?style=shield)](https://circleci.com/gh/segmentio/ksuid.svg?style=shield)
+# ksuid [![Go Report Card](https://goreportcard.com/badge/github.com/autosegment/ksuid)](https://goreportcard.com/report/github.com/autosegment/ksuid) [![GoDoc](https://godoc.org/github.com/autosegment/ksuid?status.svg)](https://godoc.org/github.com/autosegment/ksuid) [![Circle CI](https://circleci.com/gh/segmentio/ksuid.svg?style=shield)](https://circleci.com/gh/segmentio/ksuid.svg?style=shield)
 
 ksuid is an efficient, comprehensive, battle-tested Go library for
 generating and parsing a specific kind of globally unique identifier
@@ -6,7 +6,7 @@ called a *KSUID*. This library serves as its reference implementation.
 
 ## Install
 ```sh
-go get -u github.com/segmentio/ksuid
+go get -u github.com/autosegment/ksuid
 ```
 
 ## What is a KSUID?
@@ -139,7 +139,7 @@ use cases.
 Given a Go build environment, it can be installed with the command:
 
 ```sh
-$ go install github.com/segmentio/ksuid/cmd/ksuid
+$ go install github.com/autosegment/ksuid/cmd/ksuid
 ```
 
 ## CLI Usage Examples
